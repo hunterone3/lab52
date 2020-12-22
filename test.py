@@ -21,4 +21,8 @@ class MyTest(ut.TestCase):
         self.assertRaises(Exception,self.mp.remove)
        
 if __name__ == "__main__":
+    import xmlrunner
+    runner=xmlrunner.XMLTestRunner(output='test-reports')
+    ut.main(testRunner=runner)
     ut.main()
+    

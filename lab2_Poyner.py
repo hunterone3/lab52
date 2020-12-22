@@ -40,4 +40,4 @@ class MyClass():
             raise Exception
         d1.pop()
 
-#print(dir(d))
+print("laba5")
